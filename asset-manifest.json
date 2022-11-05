@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/cv-turpin-jeremy/static/css/main.76d5e9be.css",
+    "main.js": "/cv-turpin-jeremy/static/js/main.c12c097a.js",
+    "static/media/learning.png": "/cv-turpin-jeremy/static/media/learning.c6c923cf9a84305cbe72.png",
+    "static/media/lycee.png": "/cv-turpin-jeremy/static/media/lycee.f11d421b0377e4e2d11d.png",
+    "static/media/food.png": "/cv-turpin-jeremy/static/media/food.5fd56a2db4ea0146b145.png",
+    "static/media/challenge.png": "/cv-turpin-jeremy/static/media/challenge.e5f0f5b6a9c4cabf2df8.png",
+    "static/media/moi.jpg": "/cv-turpin-jeremy/static/media/moi.188497d23678e8b25e9b.jpg",
+    "static/media/cuv.png": "/cv-turpin-jeremy/static/media/cuv.d5a5d20ffe15d4d5cbd2.png",
+    "static/media/thinking.png": "/cv-turpin-jeremy/static/media/thinking.6d388f92e8025f551179.png",
+    "static/media/kanap.png": "/cv-turpin-jeremy/static/media/kanap.caaaefce3d47141fb6a3.png",
+    "static/media/chef.png": "/cv-turpin-jeremy/static/media/chef.85ddbd9178af740c7315.png",
+    "static/media/second.png": "/cv-turpin-jeremy/static/media/second.41dfc68b807244e7ec90.png",
+    "static/media/king.png": "/cv-turpin-jeremy/static/media/king.16f0acb2d72e4c9cff96.png",
+    "static/media/ohmyfood.png": "/cv-turpin-jeremy/static/media/ohmyfood.cfc896ae069c764a759e.png",
+    "static/media/Jérémy_Turpin_CV.pdf": "/cv-turpin-jeremy/static/media/Jérémy_Turpin_CV.1c138cd9755aac6e33dc.pdf",
+    "static/media/panther.png": "/cv-turpin-jeremy/static/media/panther.0d56026a4c52c1548cb7.png",
+    "static/media/booki.png": "/cv-turpin-jeremy/static/media/booki.51491a18584f6d090307.png",
+    "static/media/history.jpg": "/cv-turpin-jeremy/static/media/history.10791265e50814c4198d.jpg",
+    "static/media/pizza.png": "/cv-turpin-jeremy/static/media/pizza.569cc960c9a8590b894b.png",
+    "static/media/groupomania.png": "/cv-turpin-jeremy/static/media/groupomania.debfe40328e37929789a.png",
+    "static/media/win.jpg": "/cv-turpin-jeremy/static/media/win.669196daa013dfc0a9f6.jpg",
+    "static/media/hot.png": "/cv-turpin-jeremy/static/media/hot.d0a04627864417c9812b.png",
+    "static/media/litterature.jpg": "/cv-turpin-jeremy/static/media/litterature.e6531ece96a36116dd66.jpg",
+    "static/media/pendu.png": "/cv-turpin-jeremy/static/media/pendu.9cfed0d060cfff4c50e7.png",
+    "static/media/astro.jpg": "/cv-turpin-jeremy/static/media/astro.4c0a2c59e17f1a4da574.jpg",
+    "index.html": "/cv-turpin-jeremy/index.html",
+    "main.76d5e9be.css.map": "/cv-turpin-jeremy/static/css/main.76d5e9be.css.map",
+    "main.c12c097a.js.map": "/cv-turpin-jeremy/static/js/main.c12c097a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76d5e9be.css",
+    "static/js/main.c12c097a.js"
+  ]
+}
