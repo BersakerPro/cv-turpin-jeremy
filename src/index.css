@@ -1,13 +1,36 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+*, ::before, ::after {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Zen Antique', serif;
+  background: #144063 ;
+}
+
+.subMenuTitle {
+  text-align: center;
+  width: 65%;
+  margin: 50px auto;
+  background-image: linear-gradient(35deg, #404640 0%, #F0F0F0  30%, #404640  100%);
+  box-shadow: 0 5px 20px black;
+  border-radius: 10px;
+  font-size: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.instructions {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 760px) {
+  .instructions {
+    font-size: 15px;
+  }
 }
