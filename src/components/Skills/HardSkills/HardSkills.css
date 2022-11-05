@@ -1,0 +1,67 @@
+.skillsList {
+    margin-top: 10px;
+}
+
+.skillsCapsList {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skillsTextList {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skillsTextList p {
+    width: 450px;
+    height: 40px;
+    margin: 15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+}
+
+.skillsCaps {
+    width: 220px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 2px;
+    background-image: linear-gradient(90deg,  black  40%, #F0F0F0  30%);
+}
+.skillsCaps h4 {
+    text-align: center;
+    color: white;
+    width: 90px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.softCaps {
+    height: 52px;
+}
+
+.stars {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 650px) {
+    .skillsCapsList {
+        width: 100%;
+    }
+    .skillsTextList p {
+        font-size: 12px;
+    }
+}

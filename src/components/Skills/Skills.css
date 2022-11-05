@@ -1,0 +1,68 @@
+.skillsContent {
+    margin: 50px auto;
+}
+
+.skillsContent nav {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.skillsContent nav a{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.skillsContent nav a:hover {
+    color: white;
+    background-image: linear-gradient(180deg, #F0F0F0  0%, #404640  50%)
+}
+
+.unActiveSkills {
+    color: black;
+    background-image: linear-gradient(180deg, #404640 0%, #F0F0F0  30%, #404640  100%);
+}
+
+.activeSkills {
+    color: white;
+    background-image: linear-gradient(180deg, #F0F0F0  0%, #404640  50%);
+}
+
+
+.diplomes {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.diplome {
+    border: ridge 5px #9B6A57;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+    margin: 5px;
+}
+
+
+.diplomeTitle {
+    padding: 15px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+.diplomeText {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 650px) {
+    .diplomes {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,68 @@
+div {
+    width: 100%;
+}
+
+.contentCard {
+    width: 100%;
+    max-width: 1400px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+section {
+    width: 250px;
+    height: 350px;
+    margin: 50px;
+    border: solid 1px black;
+    border-radius: 20px;
+    border: hidden;
+    padding: 10px;
+    box-shadow: 0 5px 20px black;
+    background-image: linear-gradient(35deg, #404640 0%, #F0F0F0  30%, #404640  100%);
+}
+
+section h2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    height: 20px;
+    text-align: center;
+}
+
+.linkCard p {
+    font-size: 12px;
+    padding: 3px;
+    text-align: center;
+}
+.imgCard {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.textCard {
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    border-top: solid 1px black;
+}
+
+.textCard p {
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 717px) {
+    section {
+        width: 90%;
+        height: 300px;
+        margin: 10px auto;
+    }
+    .textCard p {
+        font-size: 12px;
+    }
+}
