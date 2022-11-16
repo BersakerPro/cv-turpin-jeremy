@@ -17,12 +17,12 @@ export default function Info() {
     <div className="imgBox">
       <div className="bark"></div>
       <div className="lin">Turpin J.</div>
-      <img className='pic' src={Image} alt="pic"/>
-      <img className='clip' src={Clip} alt="picofclip"/>
-      <h2>TOP SECRET</h2>
+      <h2>QUI SUIS-JE ?</h2>
     </div>
     {isOpen && 
     <div className="details">
+      <img className='pic' src={Image} alt="pic"/>
+      <img className='clip' src={Clip} alt="picofclip"/>
         <p>Name : Turpin Jérémy</p>
         <p>Birth : 07 Mai 1989</p>
         <p>Place of birth : Nice</p>

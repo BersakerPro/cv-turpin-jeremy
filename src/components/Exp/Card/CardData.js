@@ -67,6 +67,7 @@ export const CardData = [
     {
         titre: "Jeu Le pendu",
         description: "Création à deux du célèbre jeu du Pendu, j'étais en charge de la partie front du projet.",
+        langage: "HTML, CSS & Javascript",
         image: pendu,
         alt: "pendu",
         url: "http://lechomdu.herokuapp.com/"

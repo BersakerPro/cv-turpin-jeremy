@@ -35,12 +35,11 @@ export default function Contact() {
 
   return (
     <div>
-      <h1 className="subMenuTitle">Contactez moi</h1>
-      <p className="instructions">Cliquez sur l'information pour la rendre visible.</p>
+      <p className="showInfoText">Cliquez sur l'information pour la rendre visible.</p>
       <div
         className="contactContent"
         style={{ backgroundImage: `url(${win})` }}
-      >
+        >
         <div className="gouttes">
           <div className="goutteElement">
             <div className="shadow shadow1"></div>
@@ -83,7 +82,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <button className="downloadBtn"><a href={require("./Jérémy_Turpin_CV.pdf")} download="CV_Turpin_Jérémy">Télécharger mon CV</a></button>
+      <button className="downloadBtn"><a href={require("./Jérémy_Turpin_CV.pdf")} download="CV_Turpin_Jérémy.pdf">Télécharger mon CV</a></button>
     </div>
   );
 }

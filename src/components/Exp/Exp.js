@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Exp.css";
 import Card from "./Card/Card";
 import school from "../../Images/lycee.png";
@@ -14,10 +15,10 @@ import cuv from "../../Images/cuv.png";
 export default function Exp() {
   return (
     <div>
-      <h1 className="subMenuTitle">Mon histoire</h1>
+      <h3>Petit flashback synthétisé de ma carrière professionnelle :</h3>
       <article className="comic">
         <div className="panel">
-          <p className="text top-left">Annecy, </p>
+          <p className="text top-left">Mon histoire commence à Annecy en 2008 </p>
           <img src={school} alt="school" />
           <p className="text bottom-right">Après mon bac scientifique...</p>
         </div>
@@ -81,6 +82,7 @@ export default function Exp() {
         </div>
       </article>
       <Card />
+      <p className="continu">Si vous voulez bien me suivre, allons voir <NavLink to="/skills" className="navContinu">mes compétences</NavLink>.</p>
     </div>
   );
 }

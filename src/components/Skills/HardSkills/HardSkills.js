@@ -8,105 +8,89 @@ export default function HardSkills() {
   return (
   <div className="skillsList">
     <div className="skillsCapsList">
+      <div className='skillsCapsListCol'>
     <div className="skillsCaps">
         <h4>ANGLAIS</h4>
         <div className="stars">
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarBorderIcon />
+        <StarIcon fontSize='smaller'/>
+        <StarIcon fontSize='smaller'/>
+        <StarHalfIcon fontSize='smaller'/>
         </div>
       </div>
       <div className="skillsCaps">
         <h4>HTML</h4>
         <div className="stars">
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
+        <StarIcon fontSize='smaller'/>
+        <StarIcon fontSize='smaller'/>
+        <StarIcon fontSize='smaller'/>
         </div>
       </div>
       <div className="skillsCaps">
         <h4>CSS</h4>
         <div className="stars">
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
+        <StarIcon fontSize='smaller'/>
+        <StarIcon fontSize='smaller'/>
+        <StarIcon fontSize='smaller'/>
         </div>
       </div>
       <div className="skillsCaps">
         <h4>SASS</h4>
         <div className="stars">
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarBorderIcon />
+        <StarIcon fontSize='smaller'/>
+        <StarIcon fontSize='smaller'/>
+        <StarHalfIcon fontSize='smaller'/>
         </div>
       </div>
       <div className="skillsCaps">
         <h4>JS</h4>
         <div className="stars">
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarBorderIcon />
+        <StarIcon fontSize='smaller'/>
+        <StarIcon fontSize='smaller'/>
+        <StarHalfIcon fontSize='smaller'/>
         </div>
       </div>
+      </div>
+      <div className="skillsCapsListCol">
       <div className="skillsCaps">
         <h4>NODE</h4>
         <div className="stars">
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarHalfIcon />
-        <StarBorderIcon />
+        <StarIcon fontSize='smaller'/>
+        <StarIcon fontSize='smaller'/>
+        <StarBorderIcon fontSize='smaller'/>
         </div>
       </div>
       <div className="skillsCaps">
         <h4>REACT</h4>
         <div className="stars">
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarBorderIcon />
+        <StarIcon fontSize='smaller'/>
+        <StarIcon fontSize='smaller'/>
+        <StarHalfIcon fontSize='smaller'/>
         </div>
       </div>
       <div className="skillsCaps">
         <h4>REDUX</h4>
         <div className="stars">
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarBorderIcon />
-        <StarBorderIcon />
+        <StarIcon fontSize='smaller'/>
+        <StarIcon fontSize='smaller'/>
+        <StarBorderIcon fontSize='smaller'/>
         </div>
       </div>
       <div className="skillsCaps">
         <h4>GIT</h4>
         <div className="stars">
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarIcon />
-        <StarBorderIcon />
+        <StarIcon fontSize='smaller'/>
+        <StarIcon fontSize='smaller'/>
+        <StarHalfIcon fontSize='smaller'/>
         </div>
       </div>
       <div className="skillsCaps">
         <h4>ARDUINO</h4>
         <div className="stars">
-        <StarIcon />
-        <StarIcon />
-        <StarBorderIcon />
-        <StarBorderIcon />
-        <StarBorderIcon />
+        <StarIcon fontSize='smaller'/>
+        <StarBorderIcon fontSize='smaller'/>
+        <StarBorderIcon fontSize='smaller'/>
         </div>
+      </div>
       </div>
     </div>
     <div className="skillsTextList">

@@ -1,67 +1,77 @@
 .skillsList {
-    margin-top: 10px;
+    display: flex;
+    margin: auto;
+    background: #e3e8f3;
+    width: 90%;
 }
 
 .skillsCapsList {
-    width: 80%;
-    margin: auto;
+    width: 50%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+}
+.skillsCapsListCol {
+    width: 150px;
 }
 
 .skillsTextList {
-    width: 100%;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    width: 50%;
 }
 
 .skillsTextList p {
-    width: 450px;
-    height: 40px;
-    margin: 15px;
+    width: 110px;
+    height: 110px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    line-height: 40px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
+    border-radius: 50%;
+    font-size: 14px;
     background-color: white;
 }
 
 .skillsCaps {
-    width: 220px;
-    margin: 15px;
+    width: 120px;
+    margin: 30px 20px;
     display: flex;
     align-items: center;
     border-radius: 20px;
     padding: 5px 2px;
-    background-image: linear-gradient(90deg,  black  40%, #F0F0F0  30%);
+    box-shadow:  0 1px 2px 1px rgb(179, 167, 167);
+    background-image: linear-gradient(90deg,  black  50%, #F0F0F0  30%);
+    transform: rotate(-25deg);
 }
 .skillsCaps h4 {
-    text-align: center;
     color: white;
-    width: 90px;
+    width: 60px;
     padding-left: 5px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .softCaps {
-    height: 52px;
+    height: 40px;
 }
 
 .stars {
-    width: 160px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    width: 50px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
+    .skillsList {
+        flex-direction: column;
+    }
     .skillsCapsList {
         width: 100%;
     }
-    .skillsTextList p {
-        font-size: 12px;
+    .skillsTextList {
+        width: 100%;
+        justify-content: center;
     }
 }

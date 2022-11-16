@@ -2,9 +2,11 @@
     display:flex;
     flex-wrap:wrap;
     font-family:'Comic Sans', cursive;
-    padding:1vmin;
+    padding: 5px;
+    padding-bottom: 30px;
     max-width: 1400px;
     margin: auto;
+    border-bottom: solid 2px #e3e8f3;
   }
   
   .panel {

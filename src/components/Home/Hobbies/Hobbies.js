@@ -21,6 +21,7 @@ export default function Hobbies() {
           <ArrowBackIosIcon />
         </div>
         <div className="center">
+          <h2>Mes hobbies</h2>
           <h2 className='title'>{hobImages[currImg].title}</h2>
         </div>
         <div className="right"

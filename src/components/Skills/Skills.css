@@ -1,39 +1,38 @@
 .skillsContent {
     margin: 50px auto;
+    width: 95%;
 }
 
-.skillsContent nav {
-    width: 50%;
-    margin: auto;
+.skillsNav {
+    width: 90%;
+    margin: 20px auto 2px;
     display: flex;
     justify-content: center;
+    background: #e3e8f3;
 }
 
-.skillsContent nav a{
-    font-size: 25px;
+.skillsNav a{
+    font-size: 20px;
     text-decoration: none;
-    font-weight: bold;
     padding: 10px;
-    border-radius: 10px;
-    margin: 0 20px;
 }
 
-.skillsContent nav a:hover {
-    color: white;
-    background-image: linear-gradient(180deg, #F0F0F0  0%, #404640  50%)
+.skillsNav a:hover {
+    color: black;
+    background: #cbd0da;
 }
 
 .unActiveSkills {
     color: black;
-    background-image: linear-gradient(180deg, #404640 0%, #F0F0F0  30%, #404640  100%);
+    background-color: white;
 }
 
 .activeSkills {
-    color: white;
-    background-image: linear-gradient(180deg, #F0F0F0  0%, #404640  50%);
+    color: black;
+    background: #cbd0da;
+    font-weight: bold
+    ;
 }
-
-
 .diplomes {
     display: flex;
     justify-content: center;
@@ -43,26 +42,31 @@
 
 .diplome {
     border: ridge 5px #9B6A57;
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 160px;
     text-align: center;
     background-color: white;
-    margin: 5px;
+    margin: 5px 20px;
 }
-
-
 .diplomeTitle {
-    padding: 15px;
+    padding: 5px;
     border-top: solid 1px black;
     border-bottom: solid 1px black;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 .diplomeText {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 720px) {
     .diplomes {
-        flex-direction: column;
-        align-items: center;
+       width: 100%;
+       flex-wrap: wrap;
+    }
+    .diplome {
+       min-width: 140px;
+       min-height: 160px;
     }
 }

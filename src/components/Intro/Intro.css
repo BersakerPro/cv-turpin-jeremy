@@ -1,34 +1,39 @@
 .welcomeHome {
     text-align: center;
-    width: 50%;
-    margin: auto;
-    background-color: #9EACC0;
-    box-shadow: rgba(0, 0, 0, 0.35) 25px 25px 25px;
+    width: 90%;
+    max-width: 950px;
+    margin: 50px auto;
+    background-color: #cdd2dd;;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 10px 25px;
     padding-bottom: 5px;
+    border-radius: 5px;
 }
 
 .welcomeTitle {
-    padding-top: 30px;
+    padding-top: 10px;
+    font-size: 25px;
 }
 
 .welcome {
     width: 80%;
     margin: 40px auto;
+    font-size: 17px;
 }
 
 .btnBack {
-    margin: 40px auto;
-    width: 150px;
+    margin: 40px auto 20px;
+    width: 170px;
 }
 
 @media screen and (max-width: 900px) {
     .welcomeHome {
-        width: 80%;
+        width: 90%;
     }
     .welcomeTitle {
-        font-size: 25px;
+        font-size: 20px;
     }
     .welcome {
-        font-size: 18px;
+        width: 100%;
+        font-size: 15px;
     }
 }

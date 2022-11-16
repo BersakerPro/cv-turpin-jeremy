@@ -2,65 +2,87 @@ div {
     width: 100%;
 }
 
+h3 {
+    text-align: center;
+    margin-top: 40px;
+}
 .contentCard {
     width: 100%;
     max-width: 1400px;
-    margin: 50px auto;
+    margin: 10px auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background: #e3e8f3;
 }
 
-
-
 section {
-    width: 250px;
-    height: 350px;
-    margin: 50px;
+    width: 200px;
+    height: 270px;
+    margin: 30px;
     border: solid 1px black;
-    border-radius: 20px;
+    border-radius: 10px;
     border: hidden;
     padding: 10px;
-    box-shadow: 0 5px 20px black;
-    background-image: linear-gradient(35deg, #404640 0%, #F0F0F0  30%, #404640  100%);
+    box-shadow: 5px 5px 10px 1px #a9adb6;
+    background-color: white;
+    
 }
 
 section h2 {
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 5px;
     height: 20px;
     text-align: center;
 }
 
 .linkCard p {
-    font-size: 12px;
+    font-size: 10px;
     padding: 3px;
     text-align: center;
 }
 .imgCard {
     width: 100%;
-    height: 150px;
+    height: 100px;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
+
 }
 
 .textCard {
-    width: 90%;
+    width: 100%;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 5px;
     border-top: solid 1px black;
 }
 
 .textCard p {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 717px) {
     section {
-        width: 90%;
-        height: 300px;
-        margin: 10px auto;
+        width: 70%;
+        height: 200px;
+        margin: 20px auto;
+        padding: 5px;
+    }
+    section h2 {
+        border-bottom: solid 1px black;
+    }
+    .linkCard p {
+        padding: 0;
+    }
+    .imgCard {
+        height: 140px;
+    }
+    .flexContent {
+        display: flex;
+    }
+    .textCard {
+        border: hidden;
+        margin: 0;
+        padding: 10px;
     }
     .textCard p {
         font-size: 12px;
