@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-turpin-jeremy/static/css/main.6b975118.css",
-    "main.js": "/cv-turpin-jeremy/static/js/main.8462ada7.js",
+    "main.css": "/cv-turpin-jeremy/static/css/main.e3c8fdaa.css",
+    "main.js": "/cv-turpin-jeremy/static/js/main.e76ef3c6.js",
     "static/media/learning.png": "/cv-turpin-jeremy/static/media/learning.c6c923cf9a84305cbe72.png",
     "static/media/lycee.png": "/cv-turpin-jeremy/static/media/lycee.f11d421b0377e4e2d11d.png",
     "static/media/food.png": "/cv-turpin-jeremy/static/media/food.5fd56a2db4ea0146b145.png",
@@ -26,11 +26,11 @@
     "static/media/pendu.png": "/cv-turpin-jeremy/static/media/pendu.9cfed0d060cfff4c50e7.png",
     "static/media/astro.jpg": "/cv-turpin-jeremy/static/media/astro.4c0a2c59e17f1a4da574.jpg",
     "index.html": "/cv-turpin-jeremy/index.html",
-    "main.6b975118.css.map": "/cv-turpin-jeremy/static/css/main.6b975118.css.map",
-    "main.8462ada7.js.map": "/cv-turpin-jeremy/static/js/main.8462ada7.js.map"
+    "main.e3c8fdaa.css.map": "/cv-turpin-jeremy/static/css/main.e3c8fdaa.css.map",
+    "main.e76ef3c6.js.map": "/cv-turpin-jeremy/static/js/main.e76ef3c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b975118.css",
-    "static/js/main.8462ada7.js"
+    "static/css/main.e3c8fdaa.css",
+    "static/js/main.e76ef3c6.js"
   ]
 }
